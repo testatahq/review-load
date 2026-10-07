@@ -1,0 +1,204 @@
+{
+  "data": {
+    "rateLimit": {
+      "cost": 1,
+      "remaining": 4997,
+      "resetAt": "2026-10-08T00:31:35Z"
+    },
+    "repository": {
+      "nameWithOwner": "cli/cli",
+      "pullRequests": {
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "Y3Vyc29yOnYyOpK0MjAyNi0xMC0wN1QxMDoxMzoyMFrPAAAAARxQCsI="
+        },
+        "nodes": [
+          {
+            "number": 14620,
+            "url": "https://github.com/cli/cli/pull/14620",
+            "state": "OPEN",
+            "isDraft": false,
+            "createdAt": "2026-10-07T14:22:41Z",
+            "updatedAt": "2026-10-07T14:24:27Z",
+            "closedAt": null,
+            "mergedAt": null,
+            "additions": 26,
+            "deletions": 9,
+            "author": {
+              "login": "user-c",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": []
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0xMC0wN1QxNDoyNDoyN1q0MjAyNi0xMC0wN1QxNDoyNDoyN1rPAAAAAUR5blE="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-07T14:24:27Z"
+                }
+              ]
+            }
+          },
+          {
+            "number": 14572,
+            "url": "https://github.com/cli/cli/pull/14572",
+            "state": "OPEN",
+            "isDraft": false,
+            "createdAt": "2026-10-01T16:59:27Z",
+            "updatedAt": "2026-10-07T13:11:10Z",
+            "closedAt": null,
+            "mergedAt": null,
+            "additions": 95,
+            "deletions": 5,
+            "author": {
+              "login": "user-d",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": []
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": null
+              },
+              "nodes": []
+            }
+          },
+          {
+            "number": 14564,
+            "url": "https://github.com/cli/cli/pull/14564",
+            "state": "OPEN",
+            "isDraft": false,
+            "createdAt": "2026-10-01T16:58:40Z",
+            "updatedAt": "2026-10-07T11:52:49Z",
+            "closedAt": null,
+            "mergedAt": null,
+            "additions": 331,
+            "deletions": 35,
+            "author": {
+              "login": "user-d",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": []
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0xMC0wN1QxMTo1Mjo0OVq0MjAyNi0xMC0wN1QxMTo1Mjo0OFrPAAAAAURcDBg="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-01T17:02:46Z"
+                },
+                {
+                  "author": {
+                    "login": "user-f",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-07T11:49:37Z"
+                },
+                {
+                  "author": {
+                    "login": "user-f",
+                    "__typename": "User"
+                  },
+                  "state": "APPROVED",
+                  "submittedAt": "2026-10-07T11:51:15Z"
+                },
+                {
+                  "author": {
+                    "login": "user-f",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-07T11:52:49Z"
+                }
+              ]
+            }
+          },
+          {
+            "number": 14616,
+            "url": "https://github.com/cli/cli/pull/14616",
+            "state": "MERGED",
+            "isDraft": false,
+            "createdAt": "2026-10-07T08:24:38Z",
+            "updatedAt": "2026-10-07T10:13:20Z",
+            "closedAt": "2026-10-07T10:13:18Z",
+            "mergedAt": "2026-10-07T10:13:18Z",
+            "additions": 1,
+            "deletions": 0,
+            "author": {
+              "login": "copilot-swe-agent",
+              "__typename": "Bot"
+            },
+            "timelineItems": {
+              "nodes": [
+                {
+                  "__typename": "ReadyForReviewEvent",
+                  "createdAt": "2026-10-07T08:34:50Z"
+                }
+              ]
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0xMC0wN1QxMDoxMjoyNFq0MjAyNi0xMC0wN1QxMDoxMjoyNFrPAAAAAURMI-Q="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-07T08:24:43Z"
+                },
+                {
+                  "author": {
+                    "login": "user-f",
+                    "__typename": "User"
+                  },
+                  "state": "CHANGES_REQUESTED",
+                  "submittedAt": "2026-10-07T08:31:31Z"
+                },
+                {
+                  "author": {
+                    "login": "user-f",
+                    "__typename": "User"
+                  },
+                  "state": "APPROVED",
+                  "submittedAt": "2026-10-07T08:34:55Z"
+                },
+                {
+                  "author": {
+                    "login": "user-c",
+                    "__typename": "User"
+                  },
+                  "state": "APPROVED",
+                  "submittedAt": "2026-10-07T10:12:24Z"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

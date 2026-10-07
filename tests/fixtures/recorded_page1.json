@@ -1,0 +1,253 @@
+{
+  "data": {
+    "rateLimit": {
+      "cost": 1,
+      "remaining": 4998,
+      "resetAt": "2026-10-08T00:31:35Z"
+    },
+    "repository": {
+      "nameWithOwner": "cli/cli",
+      "pullRequests": {
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "Y3Vyc29yOnYyOpK0MjAyNi0xMC0wN1QxNDozMTo1NlrPAAAAARiNV1c="
+        },
+        "nodes": [
+          {
+            "number": 13013,
+            "url": "https://github.com/cli/cli/pull/13013",
+            "state": "OPEN",
+            "isDraft": false,
+            "createdAt": "2026-03-24T04:06:10Z",
+            "updatedAt": "2026-10-07T19:43:25Z",
+            "closedAt": null,
+            "mergedAt": null,
+            "additions": 78,
+            "deletions": 8,
+            "author": {
+              "login": "user-a",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": []
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0wNy0xNVQxNjoxMTozOFq0MjAyNi0wNy0xNVQxNjoxMTozOFrPAAAAARh_-oo="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-03-24T04:09:29Z"
+                },
+                {
+                  "author": {
+                    "login": "user-a",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-03-24T04:26:02Z"
+                },
+                {
+                  "author": {
+                    "login": "user-b",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-07-15T16:07:23Z"
+                },
+                {
+                  "author": {
+                    "login": "user-b",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-07-15T16:11:38Z"
+                }
+              ]
+            }
+          },
+          {
+            "number": 14578,
+            "url": "https://github.com/cli/cli/pull/14578",
+            "state": "OPEN",
+            "isDraft": false,
+            "createdAt": "2026-10-02T16:16:44Z",
+            "updatedAt": "2026-10-07T19:31:56Z",
+            "closedAt": null,
+            "mergedAt": null,
+            "additions": 1712,
+            "deletions": 867,
+            "author": {
+              "login": "user-c",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": [
+                {
+                  "__typename": "ReadyForReviewEvent",
+                  "createdAt": "2026-10-06T16:06:30Z"
+                }
+              ]
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0xMC0wN1QxOTozMTo1Nlq0MjAyNi0xMC0wN1QxOTozMTo1NlrPAAAAAUSvtPc="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-02T16:20:58Z"
+                },
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-06T15:22:31Z"
+                },
+                {
+                  "author": {
+                    "login": "user-c",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-06T16:06:23Z"
+                },
+                {
+                  "author": {
+                    "login": "user-c",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-06T16:06:23Z"
+                },
+                {
+                  "author": {
+                    "login": "user-c",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-06T16:06:23Z"
+                },
+                {
+                  "author": {
+                    "login": "user-c",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-06T16:06:23Z"
+                },
+                {
+                  "author": {
+                    "login": "user-c",
+                    "__typename": "User"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-06T16:06:23Z"
+                },
+                {
+                  "author": {
+                    "login": "user-d",
+                    "__typename": "User"
+                  },
+                  "state": "APPROVED",
+                  "submittedAt": "2026-10-07T19:31:56Z"
+                }
+              ]
+            }
+          },
+          {
+            "number": 14583,
+            "url": "https://github.com/cli/cli/pull/14583",
+            "state": "MERGED",
+            "isDraft": false,
+            "createdAt": "2026-10-02T23:16:00Z",
+            "updatedAt": "2026-10-07T18:59:40Z",
+            "closedAt": "2026-10-07T18:59:37Z",
+            "mergedAt": "2026-10-07T18:59:37Z",
+            "additions": 122,
+            "deletions": 0,
+            "author": {
+              "login": "user-d",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": []
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0xMC0wNVQxMToxNzoxNlq0MjAyNi0xMC0wNVQxMToxNzoxNlrPAAAAAUKt82A="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "copilot-pull-request-reviewer",
+                    "__typename": "Bot"
+                  },
+                  "state": "COMMENTED",
+                  "submittedAt": "2026-10-02T23:22:37Z"
+                },
+                {
+                  "author": {
+                    "login": "user-e",
+                    "__typename": "User"
+                  },
+                  "state": "APPROVED",
+                  "submittedAt": "2026-10-05T11:17:16Z"
+                }
+              ]
+            }
+          },
+          {
+            "number": 14565,
+            "url": "https://github.com/cli/cli/pull/14565",
+            "state": "OPEN",
+            "isDraft": false,
+            "createdAt": "2026-10-01T16:58:53Z",
+            "updatedAt": "2026-10-07T14:31:56Z",
+            "closedAt": null,
+            "mergedAt": null,
+            "additions": 439,
+            "deletions": 16,
+            "author": {
+              "login": "user-d",
+              "__typename": "User"
+            },
+            "timelineItems": {
+              "nodes": []
+            },
+            "reviews": {
+              "pageInfo": {
+                "hasNextPage": false,
+                "endCursor": "Y3Vyc29yOnYyOpO0MjAyNi0xMC0wN1QxNDozMTo1Nlq0MjAyNi0xMC0wN1QxNDozMTo1NlrPAAAAAUR7DHs="
+              },
+              "nodes": [
+                {
+                  "author": {
+                    "login": "user-f",
+                    "__typename": "User"
+                  },
+                  "state": "APPROVED",
+                  "submittedAt": "2026-10-07T14:31:56Z"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

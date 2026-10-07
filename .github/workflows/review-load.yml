@@ -1,0 +1,53 @@
+# Weekly code-review load snapshot, posted as this workflow run's job summary.
+#
+# To use it on your repo, copy this file to .github/workflows/review-load.yml. Nothing else to set
+# up: it runs with the workflow's built-in GITHUB_TOKEN, limited to read-only permissions below,
+# and writes nothing to your repo (no comments, no issues, no commits).
+#
+# Open Actions > review-load > the latest run to read the report. The Markdown and JSON are also
+# kept as a run artifact, so you can compare weeks yourself.
+
+name: review-load
+
+on:
+  schedule:
+    - cron: "17 13 * * 1"   # Mondays at 13:17 UTC
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Window length in days"
+        default: "30"
+        required: false
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get review-load
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: testata-co/review-load
+          ref: v0.1.0
+          path: .review-load
+          persist-credentials: false
+
+      - name: Measure review load
+        working-directory: .review-load
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAYS: ${{ inputs.days || '30' }}
+        run: |
+          python3 -m review_load "$GITHUB_REPOSITORY" --days "$DAYS" --out "$RUNNER_TEMP/review-load"
+          cat "$RUNNER_TEMP/review-load/review-load.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: review-load
+          path: ${{ runner.temp }}/review-load/
+          retention-days: 90
