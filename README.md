@@ -44,14 +44,14 @@ That is a real run against the public [cli/cli](https://github.com/cli/cli) repo
 ## Quick start (30 seconds)
 
 ```bash
-git clone https://github.com/testata-co/review-load
+git clone https://github.com/testatahq/review-load
 cd review-load
 python3 -m review_load your-org/your-repo
 ```
 
 The token comes from `GITHUB_TOKEN`, then `GH_TOKEN`, then `gh auth token` if you use the GitHub CLI. Any token works for a public repo. The report lands in `./review-load-report/` (`review-load.md` and `review-load.json`).
 
-Prefer a command on your PATH? `pipx install git+https://github.com/testata-co/review-load` gives you `review-load your-org/your-repo`.
+Prefer a command on your PATH? `pipx install git+https://github.com/testatahq/review-load` gives you `review-load your-org/your-repo`.
 
 ### Private repos: a read-only token
 

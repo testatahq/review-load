@@ -22,7 +22,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://testata.co"
-Source = "https://github.com/testata-co/review-load"
+Source = "https://github.com/testatahq/review-load"
 
 [project.scripts]
 review-load = "review_load.cli:main"
